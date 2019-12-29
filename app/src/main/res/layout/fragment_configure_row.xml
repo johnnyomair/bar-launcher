@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="72dp"
+        android:paddingTop="8dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add" />
+
+
+    <!--
+        <FrameLayout
+            android:id="@+id/layout_add_app"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#78909C">
+
+            <AutoCompleteTextView
+                android:id="@+id/text_add_app"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:completionThreshold="1"
+                android:gravity="center_vertical"
+                android:hint="@string/hint_text_add_app"
+                android:paddingLeft="@dimen/keyline_margin"
+                android:paddingRight="@dimen/keyline_margin"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="#4dffffff"
+                android:textSize="16sp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.mobeta.android.dslv.DragSortListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:divider="@null"
+                android:drawSelectorOnTop="true"
+                android:paddingBottom="@dimen/padding_list"
+                android:paddingTop="@dimen/padding_list"
+                android:scrollbarStyle="outsideOverlay"
+                app:drag_enabled="true"
+                app:drag_handle_id="@id/drag_handle"
+                app:drag_start_mode="onDown"
+                app:float_alpha="0.5"
+                app:float_background_color="@android:color/transparent"
+                app:remove_enabled="true"
+                app:sort_enabled="true"
+                app:use_default_controller="true"/>
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_empty"
+                android:gravity="center"
+                android:text="@string/text_app_list_empty"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="16sp"/>
+        </FrameLayout>
+    -->
+
+</FrameLayout>

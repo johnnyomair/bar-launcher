@@ -1,0 +1,11 @@
+<ImageButton
+    android:id="@+id/button_app"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:layout_weight="1"
+    android:padding="12dp"
+    android:background="@drawable/button_app"
+    android:contentDescription="@string/content_description_icon"
+    android:scaleType="fitCenter"
+    android:src="@mipmap/ic_launcher"/>

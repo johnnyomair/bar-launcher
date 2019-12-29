@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">7
+
+    <ListPreference
+        android:defaultValue="12"
+        android:entries="@array/entries_icon_size"
+        android:entryValues="@array/entry_values_icon_size"
+        android:key="icon_size"
+        android:title="@string/title_icon_size"/>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/entries_priority"
+        android:entryValues="@array/entry_values_priority"
+        android:key="priority"
+        android:title="@string/title_priority"/>
+
+    <Preference
+        android:key="hint"
+        android:selectable="false"
+        android:summary="@string/summary_hint"/>
+
+</PreferenceScreen>

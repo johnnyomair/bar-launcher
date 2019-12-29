@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FFD740</color>
+
+    <color name="button_app_pressed">#20ffffff</color>
+
+    <color name="text_color_primary">#de000000</color>
+    <color name="text_color_secondary">#8a000000</color>
+
+</resources>

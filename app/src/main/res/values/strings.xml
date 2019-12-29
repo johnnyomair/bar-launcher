@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">Bar Launcher</string>
+
+    <string name="action_add_row">Add row</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_toggle">Toggle Bar Launcher</string>
+
+    <string name="title_notification_empty">Not configured</string>
+    <string name="text_notification_empty">Tap to configure Bar Launcher</string>
+
+    <string name="text_row_empty">Tap to configure row</string>
+    <string name="text_row_list_empty">No rows</string>
+    <string name="text_app_list_empty">No apps</string>
+
+    <string name="hint_text_add_app">Type the name of an app</string>
+
+    <string name="label_activity_configure_row">Configure row</string>
+    <string name="label_activity_settings">Settings</string>
+
+    <string name="content_description_icon">App icon</string>
+    <string name="content_description_drag_handle">Drag handle</string>
+
+    <string name="title_priority">Priority</string>
+    <string name="title_icon_size">Icon size</string>
+    <string name="summary_hint">Hide the icon from the status bar by selecting priority
+        \'Minimum\'.</string>
+
+    <string-array name="entries_priority">
+        <item>Maximum</item>
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+        <item>Minimum</item>
+    </string-array>
+
+    <string-array name="entry_values_priority">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+    </string-array>
+
+    <string-array name="entries_icon_size">
+        <item>Large</item>
+        <item>Normal</item>
+        <item>Small</item>
+    </string-array>
+
+    <string-array name="entry_values_icon_size">
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+    </string-array>
+
+</resources>
